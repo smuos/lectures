@@ -1,0 +1,143 @@
+\documentclass[12pt]{article}
+
+%Packages
+\usepackage{hyperref}
+\bibliographystyle{plainnat}
+\usepackage[round]{natbib}
+
+\textwidth=7in
+\textheight=9.5in
+\topmargin=-1in
+\headheight=0in
+\headsep=.5in
+\hoffset  -.85in
+
+\pagestyle{empty}
+
+\renewcommand{\arraystretch}{2}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+%\footnotemark
+%\footnotetext{Footnote text goes here.}
+
+\begin{document}
+
+% Quick Info Header
+\begin{center}
+{\bf CSCI 3431\ Sec. 1  \ \ MW 4:00 - 5:15 PM,  Lecture:  Loyola 275,  Lab: Loyola 182  
+}
+\end{center}
+
+\setlength{\unitlength}{1in}
+
+% Horizontal Line
+\begin{picture}(6,.1) 
+\put(0,0) {\line(1,0){6.25}}         
+\end{picture}
+
+% Course Title
+\begin{center}
+\huge Operating Systems
+\end{center}
+
+\vskip.25in
+\noindent\textbf{Instructor:} Andrew Valencik,  McNally North 118, andrew@cs.smu.ca
+
+\vskip.25in
+\noindent\textbf{Office Hours:} 2:00-3:30PM MW, 1:00-2:00PM TR, and by appointment.
+
+\vskip.25in
+\noindent\textbf{Course Website:} \href{http://moodle.cs.smu.ca}{moodle.cs.smu.ca}
+
+\vskip.25in
+\noindent\textbf{Textbook:} No textbook purchase will be required. 
+Reading material and open source textbooks will be provided when necessary.
+With this in mind, the classic textbook and other useful resources are listed at the end.
+
+\vskip.25in
+\noindent\textbf{Calendar Description:}
+Please see 2014-2015 Academic Calendar
+
+\vskip.25in
+\noindent\textbf{Course Prerequisites:}
+Please see 2014-2015 Academic Calendar
+
+\vskip.25in
+\noindent\textbf{Academic Integrity:}
+See Academic Regulation 19 (also: symlinks)
+
+\vskip.25in
+\noindent\textbf{Accessibility:}
+Please feel free to visit the Atlantic Center or meet with me in office hours to discuss any special concerns.
+\href{http://www.smu.ca/campus-life/services-for-students-with-disabilities.html}{http://www.smu.ca/campus-life/services-for-students-with-disabilities.html}
+
+\vskip.25in
+\noindent \textbf{Grading Scheme:} 
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|l|l|}
+  \hline
+  \textbf{Component} & \textbf{Grade} & \textbf{Notes}                   \\ \hline
+  Assignments        & 10             & In lab period                    \\ \hline
+  Midterm            & 30             & In class                         \\ \hline
+  Project            & 20             & Outside class schedule           \\ \hline
+  Exam               & 40             & Scheduled in regular exam period \\ \hline
+  \end{tabular}
+\end{table}
+
+%\vspace*{.15in}
+\vskip.10in
+\noindent\textbf{Late Policy:} Late submissions will not be accepted.
+
+\vskip.25in
+\noindent\textbf{Extra Help}:  Dot not hesitate to come to my office during office hours or by appointment
+to discuss a homework problem or any aspect of the course.
+
+\vskip.25in
+\noindent\textbf{Attendance}:
+Students are expected to attend classes regularly.
+Additionally the labs will involve practical applications and work that cannot be replicated via notes.
+
+\vskip.25in
+\noindent\textbf{Methods of Course Delivery}:
+Class time will consist of traditional lectures supplemented with online videos, demonstrations, and possibly student interaction.
+The course moodle will server as the central and trusted repository for all course related materials.
+
+\vskip.25in
+\noindent \textbf{Learning Outcomes}: 
+This course will examine the structure of modern operating systems and their associated components. There will be an emphasis on applying learned concepts to projects and assignments.
+
+Upon completion of the course, students should understand how operating systems affect their applications and software projects. They should have an appreciation for the Unix Philosophy, operating system design, and systems programming. The following is an incomplete list of what students should be capable of after completing the course:
+
+\begin{itemize}
+\item Develop multiple process and multiple threaded applications 
+\item Program effectively using system calls
+\item Program using inter-process communication
+\item Understand the OS interrupt mechanism
+\item Control concurrency and mutual exclusion using semaphores 
+\item Be very comfortable working from a command line interface 
+\item Build a virtual machine for a specific use
+\end{itemize}
+
+\vskip.25in
+\noindent\textbf{Important Dates}:
+\begin{center} \begin{minipage}{5in}
+\begin{flushleft}
+Add/Drop Deadline \dotfill September 12th\\
+Thanksgiving (no classes) \dotfill October 13th\\
+Midterm \dotfill October 15th\\
+Withdrawal Deadline  \dotfill November 6th\\
+Project Presentations \dotfill November 27th\\
+Project Deadline \dotfill November 27th\\
+Last Day of Classes \dotfill November 27th\\
+Final Exam \dotfill T.B.A.\\
+\end{flushleft}
+\end{minipage}
+\end{center}
+
+\nocite{*}
+
+\renewcommand{\refname}{List of Additional Resources}
+\bibliography{bibliography.csci3431.bib}
+
+\end{document}
