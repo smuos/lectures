@@ -113,7 +113,7 @@ We need a replacement policy!
   
 Our replacement policy should act to minimize __average memory access time__  
   
-AMAT = (Hit% * Tm)(HIT% * Td)  
+AMAT = (Hit% * Tm)+(HIT% * Td)  
   
 A typical Tm (memory time) value might be 100 nanoseconds  
 A typical Td (disk time) value might be 10 milliseconds  
