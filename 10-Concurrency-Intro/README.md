@@ -59,6 +59,45 @@ int main(int argc, char * argv[]) {
 ```
 
 
+##Worse
+
+"Computers are hard enough to understand without concurrency. 
+Unfortunately, with concurrency, it gets worse. Much worse."
+
+See (Tables 26.1, 26.2, 26.3 in OSTEP)[http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf]
+
+
+##Atomicity
+
+atom
+atomic
+atomicity
+
+Atomic operations
+"all or none"
+
+Atomic operations in a huge instruction set?
+
+Synchronization primitives to build multi-threaded code
+
+
+##Terminology
+
+Critical Section
+
+Race Condition
+
+Indeterminate / Deterministic
+
+Mutual Exclusion
+
+
+
+
+
+
+##Debugging tools
+
 ```bash
 gcc -D_GNU_SOURCE -pthread -lpthread -g -o main main-thread-0.c
 objdump -rS main > dmain.dis
