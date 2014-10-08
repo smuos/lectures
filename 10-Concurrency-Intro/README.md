@@ -29,7 +29,7 @@ Before we had a process control block (PCB) to save state
 Now we also have a thread control block (TCB)  
   
 As mentioned we have multiple stacks now.  
-See (Figure 26.1 in OSTEP)[http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf]  
+See [Figure 26.1 in OSTEP](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
   
   
 ##Creation  
