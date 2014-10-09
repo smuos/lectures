@@ -29,7 +29,7 @@ Before we had a process control block (PCB) to save state
 Now we also have a thread control block (TCB)  
   
 As mentioned we have multiple stacks now.  
-See (Figure 26.1 in OSTEP)[http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf]  
+See [Figure 26.1 in OSTEP](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
   
   
 ##Creation  
@@ -48,8 +48,8 @@ int main(int argc, char * argv[]) {
     pthread_t p1, p2;  
     int rc;  
     printf("main: begin\n");  
-    rc = pthread_create(&p1, NULL, mythread, "A"); assert(rc = = 0);  
-    rc = pthread_create(&p2, NULL, mythread, "B"); assert(rc = = 0);  
+    rc = pthread_create(&p1, NULL, mythread, "A"); assert(rc == 0);  
+    rc = pthread_create(&p2, NULL, mythread, "B"); assert(rc == 0);  
     // join waits for the threads to finish  
     rc = pthread_join(p1, NULL); assert(rc == 0);  
     rc = pthread_join(p2, NULL); assert(rc == 0);  
