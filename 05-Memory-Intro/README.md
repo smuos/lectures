@@ -227,7 +227,7 @@ do not use brk!
 
 calloc() allocates and zeros memory
 
-realloc() allocates a larger memory region and copies old data to it
+realloc() allocates a larger memory region and copies old data to it.
 useful for increasing array sizes
 
 
