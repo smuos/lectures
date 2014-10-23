@@ -31,12 +31,30 @@ Here is an incomplete list of possible features to add to your shell:
 
 ## Piping
 Enable your shell to connect the output of one program to the input of another.
+```bash
+ls -l | grep .pdf | less
+```
 
 ## History
 Have your shell keep track of commands the user as typed.
+```
+user$ ls
+user$ cd
+  <arrow up>
+user$ cd
+  <arrow up>
+user$ ls
+```
 
 ## Tab completion
 Hitting <tab> in your shell will suggest commands that match your partial command.
+```
+user$ wg <tab>
+user$ wget
+```
 
 ## Redirection
 Redirect input or output of commands from or to files.
+```bash
+ls -l | grep *.pdf > pdfLog.txt
+```
