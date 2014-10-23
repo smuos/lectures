@@ -20,3 +20,9 @@ This final submission will be a written report and a presentation/demo to the cl
 - Written report of completed work.
 - A demonstration of the completed work.  
 
+##Features
+Here is an incomplete list of possible features to add to your shell:  
+- Piping
+- History
+- Tab completion
+- Redirection
