@@ -166,8 +166,8 @@ Perhaps we want a thread to check a condition before executing.
 
 To do this we use a 'condition variable' which is a queue threads can put themselves in.
 
-`pthread_cond_wait()` Used when a thread wants to sleep. 
-`pthread_cond_signal()` Used when a thread has changed something...
+`pthread_cond_wait()` Used when a thread wants to sleep.  
+`pthread_cond_signal()` Used when a thread has changed something...  
 
 
 Parent waiting for child
@@ -282,3 +282,5 @@ int main(int argc, char *argv[]) {
 
 
 Tip: hold the lock while calling signal or wait.
+
+Next time we'll be looking at the Producer Consumer problem.
