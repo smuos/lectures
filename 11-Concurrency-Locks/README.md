@@ -9,7 +9,7 @@ Evaluating Locks
 
 1. Does the lock provide mutual exclusion?
 2. Does any lock starve while waiting for the lock?
-3. Does the lock add so much overhead it afects performance?
+3. Does the lock add so much overhead it affects performance?
 
 
 Controlling Interrupts
@@ -28,7 +28,7 @@ void unlock{
 
 This approach is not without considerable disadvantages.
 
-- It requires trusty the application with a priviledged instruction
+- It requires trusty the application with a privileged instruction
 - It does not work with multiple CPUs
 - It is not necessarily performant
 
@@ -62,7 +62,7 @@ Test and Set
 ------------
 
 We need some hardware support.  
-The test-and-set is reffered to as `xchg` on x86.  
+The test-and-set is referred to as `xchg` on x86.  
 (atomic exchange instruction)  
 
 The following describes the test-and-set instruction.  
