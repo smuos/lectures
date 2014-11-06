@@ -16,9 +16,9 @@ sem_t s;
 sem_init(&s, 0, 1);
 ```
 
-first: reference to semaphore
-second: share the semaphore among threads
-third: the semaphores initial value is 1
+- first: reference to semaphore  
+- second: share the semaphore among threads  
+- third: the semaphores initial value is 1  
 
 
 Semaphores as Locks
