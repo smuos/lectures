@@ -73,3 +73,5 @@ UNIX
 [Early Bell System Technical Journals on UNIX](http://www3.alcatel-lucent.com/bstj/vol57-1978/bstj-vol57-issue06.html)  
 
 [Video: The UNIX Operating System](http://youtu.be/tc4ROCJYbm0)  
+
+[Bash Architecture](http://aosabook.org/en/bash.html)
