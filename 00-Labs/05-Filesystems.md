@@ -9,7 +9,7 @@ You only need to answer the following two questions.
 
 Submit your answers before 4:00pm November 27th 2014.
 
-1. Determine the operations for the following simulation run:
+> Question 1: Determine the operations for the following simulation run:
 
 ```
 Initial state
@@ -63,7 +63,7 @@ data          [(.,0) (..,0) (c,1)] [(.,1) (..,0) (d,2) (y,2)] [o] [] [] [] [] []
 
 ```
 
-2. Determine the state after each operation.
+> Question 2: Determine the state after each operation.
 
 ```
 Initial state
