@@ -54,7 +54,7 @@ Here we have two inodes, one for a directory at the first (0th) data block, and 
 The data bitmap shows which data blocks are in use.
 
 Finally the data shows the contents of each data block.
-The first data block is a directory containing 4 directory entries.
+The first data block is a directory containing 3 directory entries.
 The second data block is a regular file containing the data `x`.
 
 The inumber for the root directory is 0. See that both `.` and `..` point to 0.
@@ -87,7 +87,7 @@ Crash Consistency
 A single write of a file needs to update several data structures.
 
 There are several ways the above state transition could fail.
-Let's first consider the case where only a single write suceeds:
+Let's first consider the case where only a single write succeeds:
 
 __data block__: The data is written but with no record of it.
 The file system can't tell the difference between this data and garbage data.
@@ -102,7 +102,7 @@ __inode__ and __bitmap__: Filesystem metadata is consistent, but points to garba
 
 __inode__ and __data block__: Filesystem metadata is not consistent, but the data exists.
 
-__bitmap__ and __data block__: Filesystem metadata is not consistent, and we don't know who the data belopngs to.
+__bitmap__ and __data block__: Filesystem metadata is not consistent, and we don't know who the data belongs to.
 
 Let's look at some solutions to these possible problems:
 
