@@ -1,6 +1,11 @@
 CSCI 3431: Operating Systems
 ============================
 
+__Final Exam__: December 3rd, 9am-12pm, Loyola 171  
+
+[Exam Study Guide](19-Exam-Study/README.md)
+
+
 This repository will track the lecture notes used for the Fall 2014 CSCI3431 course.
 
 (The lecture notes are not meant to be a replacement for attending the lectures.)
