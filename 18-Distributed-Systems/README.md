@@ -34,29 +34,29 @@ __TCP__ is the most common reliable communication layer.
 Distributed shared memory (DSM)
 ------------------------------
 
-Resulting from research considering OS abstractions.
-Many machines share and address space.
-On a memory access request we could have the page locally, or we page fault to the network.
+Resulting from research considering OS abstractions.  
+Many machines share and address space.  
+On a memory access request we could have the page locally, or we page fault to the network.  
 
 How would you handle failure here?
 
-We don't want parts of our address space to disappear.
-Additionally, performance is a concern.
+We don't want parts of our address space to disappear.  
+Additionally, performance is a concern.  
 
-"Though much research was performed in this space, there was little practical impact;
-nobody builds reliable distributed systems using DSM today."
+"Though much research was performed in this space, there was little practical impact;  
+nobody builds reliable distributed systems using DSM today."  
 
 
 Remote Procedure Call (RPC)
 ---------------------------
 
-RPC is a programming language abstraction (in contrast to an OS abstraction).
-Makes remote code execution look like a local function.
+RPC is a programming language abstraction (in contrast to an OS abstraction).  
+Makes remote code execution look like a local function.  
 
 Stub Generator
 
-Also known as a protocol compiler
-Handles function arguments
+Also known as a protocol compiler  
+Handles function arguments  
 
 The input could be as simple as:
 
@@ -67,8 +67,8 @@ interface {
 };
 ```
 
-This generate a server stub that exports the functions.
-It also generates a client stub which contains everything necessary to perform the RPC.
+This generate a server stub that exports the functions.  
+It also generates a client stub which contains everything necessary to perform the RPC.  
 
 The client just sees a normal function call, for example, `func1()` does the following:
 
