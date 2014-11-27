@@ -21,9 +21,20 @@ This final submission will be a written report and a presentation/demo to the cl
 ## Final Submission
 > Due on the last day of classes.
 
+Each student must submit the following two documents to [moodle](http://moodle.cs.smu.ca/).
+Please ensure everyone in your group sends the exact same pdf copy of the final report.
+This may seem unnecessary, but it puts the responsibility of the students grade in their own hands.
+
+__Report__
 - Written report of completed work.
-- A demonstration of the completed work.  
-- Between 2 and 4 pages double spaced.
+- Focus on what makes your shell unique.
+- Discuss the challenges, and decisions you had to make.
+- Between 700 and 1000 words.
+
+__Peer Evaluation__
+
+Each student must fill out a peer evaluation form.
+These can be found as a pdf on the [moodle](http://moodle.cs.smu.ca/).
 
 
 # Features
