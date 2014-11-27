@@ -10,7 +10,7 @@ __Final Submission__
 
 Each student must submit a final report and a peer evaluation.
 
-Please see the [project page](00-Project/README.md) for additional details.
+Please see the [project page](00-Project/README.md#final-submission) for additional details.
 
 
 Information
