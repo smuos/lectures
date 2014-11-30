@@ -64,7 +64,7 @@ int main(int argc, char * argv[]) {
 "Computers are hard enough to understand without concurrency.   
 Unfortunately, with concurrency, it gets worse. Much worse."  
   
-See (Tables 26.1, 26.2, 26.3 in OSTEP)[http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf]  
+See [Tables 26.1, 26.2, 26.3 in OSTEP](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf])  
   
   
 ##Atomicity  
