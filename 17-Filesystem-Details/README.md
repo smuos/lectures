@@ -11,7 +11,7 @@ Reserve the first 8 blocks (indexed at zero) for metadata.
 We store our file metadata in inodes.
 We have use bitmaps to store our allocation information.
 
-Checkout the Inode Table and example structure in [OSTEP 40.3](pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf#page=4)
+Checkout the Inode Table and example structure in [OSTEP 40.3](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf#page=4)
 
 
 Referencing Blocks
