@@ -75,16 +75,16 @@ Deadlock
 
 Four conditions are necessary for deadlock:
 
-- Mutual exclusion
+- Mutual exclusion \
 Exclusive control of shared resources.
 
-- Hold-and-wait
+- Hold-and-wait \
 A thread holds the lock while waiting for other resources.
 
-- No preemption
+- No preemption \
 Locks cannot be forcibly removed from threads.
 
-- Circular wait
+- Circular wait \
 Each thread holds a resource being requested by another thread.
 
 
