@@ -97,7 +97,7 @@ Access Paths
 
 We've mostly talked about the data structures, let's consider the access methods.
 
-See [table 40.3 in OSTEP](pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf#page=11).
+See [table 40.3 in OSTEP](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf#page=11).
 
 
 Caching
