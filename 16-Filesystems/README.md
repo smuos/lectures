@@ -48,7 +48,7 @@ The Inode
 The inode contains the metadata for an individual file.  
 Each inode has an inumber which is the 'low level name' we referred to previously.  
 
-Checkout the Inode Table and example structure in [OSTEP 40.3](pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf#page=4)
+Checkout the Inode Table and example structure in [OSTEP 40.3](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf#page=4)
 
 
 Referencing Blocks
