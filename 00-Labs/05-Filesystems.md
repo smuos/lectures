@@ -3,7 +3,7 @@ Filesystem Simulator
 
 Download the [vsfs.py file](http://pages.cs.wisc.edu/~remzi/OSTEP/Homework/HW-VSFS.tgz) from the OSTEP homework.
 
-Play around with the simulator, working through questions 1 through 4 at the end of [OSTEP: Chapter 40](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf).  
+Play around with the simulator, working through questions 1 through 4 at the end of [OSTEP: Chapter 40](http://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf#page=18).  
 
 You only need to answer the following two questions.
 
