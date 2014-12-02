@@ -98,11 +98,11 @@ __bitmap__: If only a bitmap (either one) is updated, the filesystem is inconsis
 
 And if two writes succeed:
 
-__inode__ and __bitmap__: Filesystem metadata is consistent, but points to garbage data.
+__inode__ and __bitmap__: Filesystem metadata is consistent, but points to garbage data; this is very bad.
 
-__inode__ and __data block__: Filesystem metadata is not consistent, but the data exists.
+__inode__ and __data block__: Filesystem metadata is not consistent, but the data exists; there might be hope...
 
-__bitmap__ and __data block__: Filesystem metadata is not consistent, and we don't know who the data belongs to.
+__bitmap__ and __data block__: Filesystem metadata is not consistent, the data exists but without reference; this is very bad.
 
 Let's look at some solutions to these possible problems:
 
@@ -119,6 +119,12 @@ fsck
 - Directory checks
 
 This process is slow and perhaps overkill.
+
+> Which of the failure scenarios above could `fsck` recover from?
+
+Surely we are lost without at least a valid inode pointing to a data block.
+
+But even then, the data block could contain unexpected or garbage data.
 
 
 Journaling
