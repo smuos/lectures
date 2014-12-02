@@ -5,6 +5,8 @@ __Final Exam__: December 3rd, 9am-12pm, Loyola 171
 
 [Exam Study Guide](19-Exam-Study/README.md)
 
+[New Quiz!](https://github.com/smuos/quizzes/releases/tag/v.1.2014)
+
 
 __Final Submission__
 

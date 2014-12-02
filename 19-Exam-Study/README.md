@@ -5,6 +5,12 @@ The following information should help you prepare for the final exam.
 However, it is not an all inclusive guide.
 
 
+Class Quizzes
+-------------
+
+Be sure to checkout the moodle or the [quiz repo](https://github.com/smuos/quizzes/releases/tag/v.1.2014) to see the latest quiz on persistence!
+
+
 OSTEP Material
 --------------
 
