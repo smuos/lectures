@@ -8,6 +8,7 @@ Consider the crux of the problem:
 - How do we access the data?
 
 Two crucial aspects to think about:
+
 1. The data structures (lists, arrays, trees)
 2. The access methods (mapping system calls to data structures)
 
