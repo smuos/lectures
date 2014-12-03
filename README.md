@@ -1,5 +1,6 @@
 CSCI 3431: Operating Systems
 ============================
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/smuos/lectures?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 __Final Exam__: December 3rd, 9am-12pm, Loyola 171  
 
